@@ -1,10 +1,10 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
     name='hello',
     version='0.0.1',
-    packages=find_packages(),
+    packages='',
     entry_points={
         'console_scripts': [
             'hello=hello.hello:hello',
